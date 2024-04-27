@@ -34,7 +34,7 @@ function App() {
           id="outlined-number"
           label="Amount"
           type='number'
-          sx={{width:'40%', margin:3}}
+          sx={{width:'40%', margin:3, minWidth:250}}
           value={amount}
           onChange={(event)=>amountChanged(event)}
         />
@@ -43,7 +43,7 @@ function App() {
           id="outlined-number"
           type='number'
           label="tenure in years"
-          sx={{width:'40%', margin:3}}
+          sx={{width:'40%', margin:3, minWidth:250}}
           value={tenure}
           onChange={(event)=>tenureChanged(event)}
         />
@@ -52,7 +52,7 @@ function App() {
           id="outlined-number"
           type='number'
           label="rate of interest"
-          sx={{width:'40%', margin:3}}
+          sx={{width:'40%', margin:3, minWidth:250}}
           value={rate}
           onChange={(event)=>rateChanged(event)}
         />
@@ -62,7 +62,7 @@ function App() {
           label="amount to be paid"
           type='number'
           
-          sx={{width:'40%', margin:3}}
+          sx={{width:'40%', margin:3, minWidth:250}}
           value={payable}
           
         />
